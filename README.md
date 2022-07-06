@@ -47,7 +47,7 @@
 
 <br> 
 
-## Demonstração do sistema
+## Screenshots do sistema
 
 **- Tela Inicial:** 
 Essa seria a primeira tela que nosso usuário veria ao entrar, temos um banner bem colorido, juntamente de uma Navbar para auxiliar na navegação dentro da YourParty
