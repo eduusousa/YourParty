@@ -1,14 +1,14 @@
 <div>
  <img align="right" src="https://media.discordapp.net/attachments/920101631037685780/994313182250287194/balao.png" width="300" heigh"300"> 
 
-  <h1 align="left"> YourParty - Sua melhor festa é aqui </h1>
+  <h1 align="left"> 🎉 YourParty - Sua melhor festa é aqui </h1>
   <p align="left"> Sistema Web cujo objetivo é facilitar a <b>busca</b> e o <b>orçamento</b> de serviços para eventos e festas, facilitando também, o contato entre Empresa e Cliente. </p>
 <div>
 
 
 <br> 
 
-## Desenvolvedores
+## 📎 Desenvolvedores
 
 **👨‍💻 BACK-END:**
 - [Eduardo Sousa](https://github.com/DuS0usa)
@@ -24,7 +24,7 @@
 
 <br> 
 
-## Stack utilizada
+## 📎 Stack utilizada
 
 **🖌️ Front-end:** HTML5, CSS3 e JavaScript.
 
@@ -34,7 +34,7 @@
 
 <br> 
 
-## Funcionalidades
+## 📎 Funcionalidades
 
 - Sistema de busca com **filtros** e campo de pesquisa
 - Página que detalha o serviço quando clicado
@@ -47,7 +47,7 @@
 
 <br> 
 
-## Screenshots do sistema
+## 📷 Screenshots do sistema
 
 **- Tela Inicial:** 
 Essa seria a primeira tela que nosso usuário veria ao entrar, temos um banner bem colorido, juntamente de uma Navbar para auxiliar na navegação dentro da YourParty
@@ -63,7 +63,7 @@ Nosso usuário pode se *Logar/Cadastar* como Empresa ou como Cliente. Para se ca
 
 <br> 
 
-## Cliente
+## 👦 Cliente
 **- Home | Cliente:**
 Quando o usuário faz o login, ele é redirecionado para a sua Home. Nessa tela é mostrado os serviços **mais avaliados** de cada categoria e abaixo é mostrado as promoções, com os **mais baratos** de cada categoria.
 
@@ -97,7 +97,7 @@ Na parte do perfil, o nosso usuário pode editar informações e mudar a foto ta
 
 <br>
 
-## Empresa
+## 🏢 Empresa
 
 **- Dashboard:**
 Quando o usuário se loga como Empresa, ele possuí uma Dashboard que disponibiliza dados como: Orçamentos feito no mês e Quantidade de serviços cadastrados.
@@ -129,7 +129,7 @@ Quando é *confirmado*, o usuário pode avaliar e é mostrado a nota para a empr
 
 <br> 
 
-## Aprendizados
+## 📚 Aprendizados
 
 Durante a criação, desenvolvimento e conclusão deste projeto, aprendi a ouvir e me comunicar com as pessoas de minha equipe. 
 Em relação a programação, me aprofundei um pouco mais na linguagem PHP e na Programação Orientada à Objetos, por ser utilizada em todos os CRUDs do sistema. Tive conhecimento também sobre a linguagem JavaScript, pois precisei fazer alguns cadastros e consultas via Jquery e Ajax.  
