@@ -1,0 +1,57 @@
+/* ---| BOTÃO NOTIFICAÇÃO - SERVIÇOS  |--- */
+
+.button-toastr{
+    font-size:15px;
+    font-family:Arial;
+    width: 105px;
+    height: 35px;
+
+    border-width:1px;
+    border-radius: 10px;
+
+    color:rgba(255, 255, 255, 1);
+    border-color:#784cfb;
+    font-weight:bold;
+    background:#784cfb;
+}
+  
+.button-toastr:hover {
+    background: #633ed1;
+    color: white;
+}
+
+
+.button-not{
+    font-size:15px;
+    font-family:Arial;
+    width: 105px;
+    height: 35px;
+
+    border-radius: 10px;
+    border-width: 3px;
+
+    color:#ffffff;
+    border-color:#ffffff;
+    font-weight:bold;
+    background:rgba(255, 255, 255, 0);
+}
+
+.button-not:hover{
+    color: #784cfb;
+    border-color:#784cfb;
+}
+  
+  
+  
+  /* --------------------------------------- */
+
+
+.link-itens{
+    align-self: center;
+    padding: 10px;
+}
+
+.link{
+    text-decoration: underline;
+}
+  

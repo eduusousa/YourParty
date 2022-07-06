@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --dark-one: #333;
+    --dark-two: #000;
+    --main-color: #784cfb;
+    --light-one: #fff;
+    --light-two: #f9fafb;
+    --orange: #FF8000;
+    --light-three: #f6f7fb;
+    --azul: #3CA1C1;
+  }
+  
+  
+  *::selection {
+    background: var(--orange);
+    color: #000;
+  }
+
+body{
+    background: #fff;
+}
+
+nav{
+    background: #4361EE;
+    line-height: 70px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 500px;
+    height: 80px;
+}
+
+img{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+label span{
+    color: #181811;
+    font-weight: 500;
+}
+
+
+.empresa{
+    line-height: 80px;
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    margin-left: 50px;
+    cursor: pointer;
+    font-weight: 100px;
+    font-weight: 500;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    line-height: 80px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: #784cfb;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 3px;
+}
+
+nav ul li a:hover{
+    background-color: #784cfb;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container {
+	max-width:900px;
+	width: 100%;
+	margin:0 auto;
+    position: auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+.conteudo{
+    padding:25px;
+	margin: 0;
+}
+
+
+/* .container {
+	max-width:900px;
+	width: 100%;
+	margin:0 auto;
+    position: auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #1ad6d3;
+    margin-top: 100px;
+
+} */
+/*CSS DO FORM2 */
+
+html,
+body {
+    min-height: 100%;
+}
+
+.testbox{
+ margin-top: 30px;
+
+}
+
+body,
+div,
+form,
+input,
+select {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+
+h1,
+h4{
+    margin: 15px 0 4px;
+    font-weight: 400;
+    color: black;
+}
+
+p{
+    font-size: 15px;
+}
+
+h4 {
+    margin: 20px 0 4px;
+    font-weight: 400;
+}
+
+span {
+    color: red;
+}
+
+.small {
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 80px;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.item{
+    width: calc(80% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    outline: none;
+    border: 1px solid #095484;
+    background: #e6eef7;
+}
+
+.title-block select,
+.title-block input {
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 7px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: transparent;
+}
+
+select/*,
+table*/ {
+    width: 100%;
+}
+
+option {
+    background: #fff;
+}
+
+.day-visited,
+.time-visited {
+    position: relative;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+input[type="time"]::-webkit-inner-spin-button {
+    margin: 2px 22px 0 0;
+}
+
+.day-visited i,
+.time-visited i,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 8px;
+    font-size: 20px;
+}
+
+.day-visited i,
+.time-visited i {
+    right: 5px;
+    z-index: 1;
+    color: #a9a9a9;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+    right: 0;
+    z-index: 2;
+    opacity: 0;
+}
+
+.question-answer label {
+    display: block;
+    padding: 0 20px 10px 0;
+}
+
+.question-answer input {
+    width: auto;
+    margin-top: -2px;
+}
+
+th,
+td {
+    width: 18%;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    vertical-align: unset;
+    line-height: 18px;
+    font-weight: 400;
+    /* word-break: break-all; */
+} 
+
+.first-col {
+    width: 25%;
+    text-align: left;
+}
+
+textarea {
+    width: calc(100% - 6px);
+}
+
+.btn-block {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botao {
+    width: 150px;
+    background-color: #784cfb;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao1{
+    width: 40px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 50px;
+    background-color: #4361EE;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #463FCA;
+}
+
+.cep{
+    width: 25%;
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.espaçamento{
+    width: 100%;
+}
+
+@media (min-width: 568px) {
+    .title-block {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+    }
+
+    .title-block2 {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+    }
+
+    .title-block select {
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .title-block input {
+        width: 40%;
+        margin-top: 5px;
+        height: 25px;
+    }
+
+    .title-block2 input {
+        width: 95%;
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    /* th,
+    td {
+        word-break: keep-all;
+    } */
+}
+
+@media(max-width: 991px){
+    .botao{
+        margin-top: 10px;
+    }
+}
+
+
+/* CSS DO FORM */
+
+td img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 5px solid #E6E7EB;
+}
+
+table{
+    margin-top: 40px;
+    width: 100%;
+    border-collapse: collapse;
+    -webkit-box-shadow: -3px 6px 18px 13px rgba(0,0,0,0.31); 
+    box-shadow: -3px 6px 18px 13px rgba(0,0,0,0.31);
+}
+
+.table td,.table th{
+    padding:5px 10px;
+    border:1px solid #111;
+    text-align: center;
+    font-size: 15px;
+}
+
+.table th{
+    background-color: #333;
+    color:#ffffff;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+
+.row {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.row1 {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+div#container{
+    overflow-x: auto;
+}
+
+
+/*Table responsiva*/
+

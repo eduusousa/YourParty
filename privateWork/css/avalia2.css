@@ -1,0 +1,136 @@
+:root {
+    --dark-one: #333;
+    --dark-two: #000;
+    --main-color: #784cfb;
+    --light-one: #fff;
+    --light-two: #f9fafb;
+    --orange: #FF8000;
+    --light-three: #f6f7fb;
+    --azul: #3CA1C1;
+  }
+  
+  
+  *::selection {
+    background: var(--orange);
+    color: #000;
+  }
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    content: '\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked~label i.fa:before {
+    color: #CCC;
+}
+
+.section__title-center {
+    text-align: center;
+}
+
+
+.grid {
+    display: grid;
+}
+
+/*=============== STEPS ===============*/
+.steps__bg {
+    background-color: #FFF;
+    padding: 3rem 2rem 2rem;
+    border-radius: 1rem;
+}
+
+.steps__container {
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+.steps__title {
+    color: #FFF;
+}
+
+.steps__card {
+    background-color: #F6F7FB;
+    padding: 2.5rem 3rem 2rem 1.5rem;
+    border-radius: 3rem;
+}
+
+.steps__card-number {
+    display: inline-block;
+    /* background-color: #784cfb; */
+    color: #FFF;
+    padding: .3rem .70rem;
+    border-radius: .35rem;
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-1-5);
+    transition: .4s;
+}
+
+
+.steps__card-title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+
+.steps__card-description {
+    font-size: var(--small-font-size);
+}
+
+.steps__card:hover .steps__card-number {
+    transform: translateY(-.25rem);
+}
+
+
+.step__title__section{
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.hr-style{
+    width: 75%;
+    color: var(--main-color);
+}
+
+h4 {
+    color: #FF8000;
+}
+
+h3 {
+    color: #000;
+}
+
+h2 {
+    color: #dd7106;
+}
+
+.bt {
+    width: 100px;
+    background-color: #784cfb;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .bt:hover {
+    background-color: #444;
+  }
+  
+
+
+@media screen and (min-width: 992px) {
+    .steps__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
