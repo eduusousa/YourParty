@@ -28,9 +28,9 @@
 
 **🖌️ Front-end:** HTML5, CSS3 e JavaScript.
 
-**👨‍💻 Back-end:** PHP e MYSql.
+**👨‍💻 Back-end:** PHP e MySql.
 
-**💻 Softwares:** Visual Studio Code e XAMPP (Hospedagem).
+**💻 Softwares:** Visual Studio Code e XAMPP.
 
 <br> 
 
